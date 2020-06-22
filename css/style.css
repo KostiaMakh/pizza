@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    height: 40px;
+    background-color: #af2024;
+}
+.social{
+    position: fixed;
+    right: 0;
+    top: 262px;
+}
+.social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #850409;
+    color: white;
+    font-size: 33px;
+    text-decoration: none;
+}
+.social a:first-of-type {
+    background-color: #850409;
+}
+.social a:last-of-type {
+    background-color: #98161b;
+}
+
