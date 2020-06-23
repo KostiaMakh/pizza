@@ -5,6 +5,55 @@
 header{
     height: 40px;
     background-color: #af2024;
+    margin-bottom: 20px;
+}
+body {
+    background-color: #3f0002;
+}
+.logo{
+    max-width: 1014px;
+    padding: 0 15px;
+    margin: 0 auto 21px;
+}
+.container{
+    max-width: 710px;
+    margin: auto;
+    background-color: white;
+}
+.video_title{
+    background-color: #98161b;
+    padding: 27px 18px;
+}
+.video_title h1{
+    color: white;
+    font-size: 20px;
+}
+.container .video_block{
+    padding: 62px 74px 125px;
+}
+.video_block .video{
+    background-color: #e7e7e7;
+    height: 345px;
+    margin-bottom: 30px;
+}
+.video_block h2{
+    font-size: 13px;
+    color: #98161b;
+    margin-bottom: 20px;
+}
+.video_block h2 span {
+    font-size: 13px;
+    color: #7d7d7d;
+}
+.video_block h2:after{
+    display: block;
+    content: "........";
+    color: #98161b;
+    margin-top: 20px;
+}
+.video_block p{
+    font-size: 13px;
+    color: #98161b;
 }
 .social{
     position: fixed;
@@ -27,5 +76,13 @@ header{
 }
 .social a:last-of-type {
     background-color: #98161b;
+}
+footer{
+    background-color: black;
+    height: 480px;
+}
+.container{
+    position: relative;
+    top: 50px;
 }
 
