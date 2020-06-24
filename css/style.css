@@ -8,23 +8,25 @@ header{
     margin-bottom: 20px;
 }
 body {
-    background-color: #3f0002;
+    background: url("../images/bg_main.jpg") no-repeat, #3f0002;
+    background-size: 100% auto;
 }
 .logo{
     max-width: 1014px;
     padding: 0 15px;
-    margin: 0 auto 21px;
+    margin: 0 auto 0;
     position: relative;
     z-index: 2;
-    bottom: 820px;
+
 }
 .container{
     max-width: 710px;
     margin: auto;
     background-color: white;
     position: relative;
+    top: 20px;
     z-index: 2;
-    bottom: 820px;
+
 }
 .video_title{
     background-color: #98161b;
@@ -91,15 +93,4 @@ footer{
     height: 480px;
     position: relative;
     z-index: 1;
-    bottom: 870px;
-}
-.pizza_bg{
-    height: 820px;
-    background-image: url("../images/bg_main.jpg");
-    background-repeat: no-repeat;
-    position: relative;
-    background-size: 100%;
-    z-index: 0;
-    bottom: 20px;
-
 }
